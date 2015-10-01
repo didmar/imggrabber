@@ -1,0 +1,6 @@
+cabal sandbox init
+cabal configure
+cabal install --only-dependencies
+cabal build
+./dist/build/imggrabber/imggrabber http://www.deviantart.com/
+

@@ -1,0 +1,16 @@
+name:                imggrabber
+version:             0.1.0.0
+synopsis:            Grab all the images on a web page
+description:         Grab all the images on a web page
+license:             MIT
+license-file:        LICENSE
+author:              Didier Marin
+maintainer:          marin.didier@gmail.com
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable imggrabber
+  main-is:             Main.hs
+  build-depends:       base >=4.8 && <4.9, url -any, hxt -any, HTTP -any, transformers -any, bytestring -any, parallel-io -any, network-uri -any, text -any
+  default-language:    Haskell2010
